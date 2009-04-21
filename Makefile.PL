@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'DBIx-Class-JoinCondition';
 all_from 'lib/DBIx/Class/JoinCondition.pm';
 
-# requires '';
+requires 'DBIx::Class::Schema';
 
 tests 't/*.t';
 author_tests 'xt';
